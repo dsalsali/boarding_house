@@ -6,6 +6,7 @@
     left: 0;
     white-space: nowrap;
     text-align: center;
+    margin-top: 180px;
 }
 
 div {
@@ -42,19 +43,6 @@ ul {
     list-style-type: disc;
 }
 
-body {
-    color: #333;
-}
-
-body {
-    font: 16px/1.875 "Gotham SSm A","Gotham SSm B",sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
-html {
-    color: -internal-root-color;
-}
-
 .block-overlay:after {
     content: '';
     display: inline-block;
@@ -82,15 +70,40 @@ html {
 }
 
 body {
-    font: 16px/1.875 "Gotham SSm A","Gotham SSm B",sans-serif;
-    -webkit-font-smoothing: antialiased;
+    font-family: 'Didot', sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
 }
 
-.images {
-  visibility: visible;
-  height: 704px;
-  width: 1265.84px;
+#boarding_house {
+  height: 800px;
+  width: 1500px;
   margin-top: 0px;
-  margin-left: -183.92px;
-  transition: opacity 0.2s ease 0s;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#coming_soon {
+  margin-top: 70px;
+}
+
+#bottom_text {
+  margin-top: 295px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+#title {
+  font-size: 70px;
+  margin-bottom: 85px;
+}
+
+h2 {
+  font-weight: normal;
 }
